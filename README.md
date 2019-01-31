@@ -1,2 +1,3 @@
 # Employee-ArrayList-Demo
-Demo
+Uses examples of Arraylists
+
