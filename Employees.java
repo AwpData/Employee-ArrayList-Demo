@@ -160,6 +160,7 @@ public class Employees {
 				System.out.println();
 			}
 		}
+		System.out.println("Quitting...");
 	}
 
 	public static void getInfo(int index) throws FileNotFoundException {
