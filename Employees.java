@@ -101,42 +101,10 @@ public class Employees {
 				System.out.println("9. Susan Samuel");
 				System.out.println("10. Ryan Knee");
 				System.out.println("11. Tami Williams");
-				choice = userinput.nextLine();
+				int num = userinput.nextInt();
 				System.out.println();
-
-				if (choice.equals("1")) {
-					getInfo(0);
-				}
-				if (choice.equals("2")) {
-					getInfo(1);
-				}
-				if (choice.equals("3")) {
-					getInfo(2);
-				}
-				if (choice.equals("4")) {
-					getInfo(3);
-				}
-				if (choice.equals("5")) {
-					getInfo(4);
-				}
-				if (choice.equals("6")) {
-					getInfo(5);
-				}
-				if (choice.equals("7")) {
-					getInfo(6);
-				}
-				if (choice.equals("8")) {
-					getInfo(7);
-				}
-				if (choice.equals("9")) {
-					getInfo(8);
-				}
-				if (choice.equals("10")) {
-					getInfo(9);
-				}
-				if (choice.equals("11")) {
-					getInfo(10);
-				}
+				getInfo(num - 1);
+				
 			} else if (choice.equals("2")) {
 				System.out.println();
 				System.out.println("Accounts: " + Accounts);
