@@ -102,6 +102,7 @@ public class Employees {
 				System.out.println("10. Ryan Knee");
 				System.out.println("11. Tami Williams");
 				choice = userinput.nextLine();
+				System.out.println();
 
 				if (choice.equals("1")) {
 					getInfo(0);
