@@ -146,9 +146,7 @@ public class Employees {
 				System.out.println("IT: " + IT);
 				System.out.println("Support: " + Support);
 				System.out.println();
-			}
-
-			else if (choice.equals("3")) {
+			} else if (choice.equals("3")) {
 				System.out.println();
 				System.out.println("ProjectB: " + ProjectB);
 				System.out.println("ProjectC: " + ProjectC);
@@ -160,7 +158,6 @@ public class Employees {
 				System.out.println("No Project: " + NoProject);
 				System.out.println();
 			}
-
 		}
 	}
 
